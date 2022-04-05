@@ -1,7 +1,7 @@
 # Started from Tello Template
 # This Python app is in the Public domain
 # Some parts from Tello3.py
-
+#wifi adress D8DDCF
 import threading, socket, sys, time, subprocess
 
 
@@ -58,7 +58,10 @@ try:
 
         sendmsg('command', 0)
         sendmsg('takeoff')
-
+        sendmsg("up 10")
+        sendmsg("go 225 0 60 50")
+        sendmsg("go 270 0 70 25")
+        sendmsg("go 275 90 0 50")
         # Review the (SDK) Software Development Kit resource for Drone Commands
         # Delete these comments before writing your program
 
