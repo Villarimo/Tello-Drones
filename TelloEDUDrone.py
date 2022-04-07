@@ -58,10 +58,9 @@ try:
 
         sendmsg('command', 0)
         sendmsg('takeoff')
-        sendmsg("up 10")
         sendmsg("go 190 0 60 50")
         sendmsg("go 222 0 70 50")
-        #sendmsg("curve 0 0 0 60 270 0 speed")
+        sendmsg("curve 275 -40 0 275 -80 0 50")
         # Review the (SDK) Software Development Kit resource for Drone Commands
         # Delete these comments before writing your program
 
