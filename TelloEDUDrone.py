@@ -63,6 +63,10 @@ try:
         sendmsg("curve 123 73 0 123 123 0 50")
         sendmsg("ccw 90")
         sendmsg("curve 123 73 0 123 123 0 50")
+        sendmsg("ccw 90")
+        sendmsg("go 210 0 -80 50")
+
+
         # Review the (SDK) Software Development Kit resource for Drone Commands
         # Delete these comments before writing your program
 
